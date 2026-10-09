@@ -52,6 +52,7 @@ public class Actividad02VariablesTipos {
         // electrico    -> boolean
         //
         // Muestra después toda la información.
+        
         String marca = "Mercedes Benz";
         String modelo = "AMG Clase C";
         int potencia = 300;

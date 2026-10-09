@@ -21,6 +21,22 @@ public class Actividad03EligeTipos {
         //
         // Muestra todos los datos por pantalla.
 
+        String nombreDelfestival = "Madrid salvaje";
+        int dias = 3;
+        double precioEntrada = 70.35;
+        boolean zonaAcampada = true;
+        char letraZonaasignada = 'A';
+
+        System.out.println("FESTIVAL DE MÚSICA");
+        System.out.println("nombreDelfestival: "+nombreDelfestival);
+        System.out.println("dias: "+dias);
+        System.out.println("precioEntrada: " +precioEntrada);
+        System.out.println("boolean: "+zonaAcampada);
+        System.out.println("letraZonasignada: " +letraZonaasignada);
+        
+
+
+
 
         // ============================================================
         // ACTIVIDAD 2. PERFIL DE VIDEOJUEGO
@@ -33,6 +49,10 @@ public class Actividad03EligeTipos {
         // - si tiene una suscripción activa.
         //
         // Elige tú los tipos y muestra una ficha del jugador.
+
+        String nombreJugador = 
+
+        System.out.println("PERFIL DE VIDEOJUEGO");
 
 
         // ============================================================
