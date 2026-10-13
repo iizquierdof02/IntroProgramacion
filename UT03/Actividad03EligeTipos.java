@@ -20,7 +20,7 @@ public class Actividad03EligeTipos {
         // - letra de la zona asignada.
         //
         // Muestra todos los datos por pantalla.
-
+/* 
         String nombreDelfestival = "Madrid salvaje";
         int dias = 3;
         double precioEntrada = 70.35;
@@ -34,7 +34,7 @@ public class Actividad03EligeTipos {
         System.out.println("boolean: "+zonaAcampada);
         System.out.println("letraZonasignada: " +letraZonaasignada);
         
-
+*/
 
 
 
@@ -49,11 +49,22 @@ public class Actividad03EligeTipos {
         // - si tiene una suscripción activa.
         //
         // Elige tú los tipos y muestra una ficha del jugador.
+/*
 
-        String nombreJugador = 
+String nombreJugador = "Mario";
+        int nivel = 12;
+        int numeroPartidas = 23;
+        double puntuaciónMedia = 56.7;
+        boolean suscripciónActiva = true;
 
         System.out.println("PERFIL DE VIDEOJUEGO");
+        System.out.println("NombreJugador: "+nombreJugador);
+        System.out.println("Nivel: "+nivel);
+        System.out.println("PuntuaciónMedia: "+puntuaciónMedia);
+        System.out.println("NumeroPartidas: "+numeroPartidas);
+        System.out.println("SuscripcionActiva: "+suscripciónActiva);
 
+     */
 
         // ============================================================
         // ACTIVIDAD 3. CONFIGURACIÓN DE PC
@@ -67,6 +78,19 @@ public class Actividad03EligeTipos {
         //
         // Elige tú los tipos.
         // Después muestra una ficha clara del equipo.
+
+        String nombreEquipo = "Asus Zenbook";
+        int cantidadRAM = 16;
+        int almacenamiento = 1;
+        double precio = 1000;
+        boolean graficaDedicada = false;
+
+        System.out.println("CONFIGURACIÓN DEL PC");
+        System.out.println("NombreEquipo: "+nombreEquipo);
+        System.out.println("CantidadRAM: " +cantidadRAM);
+        System.out.println("Almacenamiento: "+almacenamiento);
+        System.out.println("Precio: "+precio);
+        System.out.println("GraficaDedicada: "+graficaDedicada);
 
 
         // ============================================================
@@ -82,5 +106,9 @@ public class Actividad03EligeTipos {
         //
         // Añade un comentario explicando tu decisión.
 
+        String numeroFicticio = "7349384838"; // Como va a ser un dato que no vamos a hacer con el ningun tipo de operación lo almacenamos como una cadena de caracteres.
+        System.out.println("El número ficticio es: "+numeroFicticio);
+
+        
     }
 }
