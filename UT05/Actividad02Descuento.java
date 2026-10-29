@@ -12,7 +12,7 @@ public class Actividad02Descuento {
 
         if (importe >= 60.0) {
 
-            double importeDescuento = importe - (importe * (10/100));
+            double importeDescuento = importe - (importe * (10.0/100));
             importe = importeDescuento;
             
 
