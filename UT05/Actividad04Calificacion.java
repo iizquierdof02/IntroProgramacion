@@ -17,35 +17,29 @@ public class Actividad04Calificacion {
                 System.out.println("Insuficiente");
 
                 
-            } else {
+            } else if ( nota < 6) {
 
-                if ( nota < 6) {
                     System.out.println("Suficiente");
 
-                } else {
+                } else if ( nota < 7) {
 
-                    if ( nota < 7) {
                         System.out.println("Bien");
 
-                    } else {
-                        if (nota < 7) {
+                    } else if (nota < 9) {
                             System.out.println("Notable");
 
-                        } else {
-                            if (nota < 9) {
+                        } else  if (nota >= 9) {
+
                                 System.out.println("Sobresaliente");
                                 
                             }
                         }
                     }
-                }
-            }
-
-       }    else {
+                } else {
 
         System.out.println("Valor introducido no valido (tiene que estar entre 0 y 10");
 
 
        }
-    }
-}
+
+
