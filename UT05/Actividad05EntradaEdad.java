@@ -29,8 +29,7 @@ public class Actividad05EntradaEdad {
         }
 
         teclado.close();
-     }
-     
+     } 
 }
 
 
