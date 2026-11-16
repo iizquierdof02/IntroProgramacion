@@ -10,11 +10,6 @@ public class Act5EtiquetasTaquillas {
 
         int taquilla = teclado.nextInt();
 
-        if (condition) {
-            
-        }
-        while (taquilla) {
-            
-        }
+       
     }
 }
